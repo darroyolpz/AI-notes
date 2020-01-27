@@ -14,11 +14,9 @@ Given a huge set of data (aka *dataset*), neural networks are able to find the g
 
 As matrices **inner indexes must match between each other** (i.e. [Ax**B**] and [**B**xC]), it's recommended to pass the inputs as a one-row vector (with as many columns as inputs) and weights as a matrix (matching the number of rows with the number of inputs, and number of columns with the amount of hidden layers).
 
-<div align="center">
-	<img src="https://latex.codecogs.com/svg.latex?\Large&space;h_1=x_1w_{11}+x_2w_{21}+x_3w_{31}">
-	<img src="https://latex.codecogs.com/svg.latex?\Large&space;h_2=x_1w_{12}+x_2w_{22}+x_3w_{32}">
-	<img src="https://latex.codecogs.com/svg.latex?\Large&space;h_3=x_1w_{13}+x_2w_{23}+x_3w_{33}">
-</div>
+<p align="center"><img src="https://latex.codecogs.com/svg.latex?\Large&space;h_1=x_1w_{11}+x_2w_{21}+x_3w_{31}"></p>
+<p align="center"><img src="https://latex.codecogs.com/svg.latex?\Large&space;h_2=x_1w_{12}+x_2w_{22}+x_3w_{32}"></p>
+<p align="center"><img src="https://latex.codecogs.com/svg.latex?\Large&space;h_3=x_1w_{13}+x_2w_{23}+x_3w_{33}"></p>
 
 In code one could use Numpy. Define a sigmoid function as activation and get the output:
 
