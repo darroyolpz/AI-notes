@@ -6,7 +6,9 @@
 
 Neural networks themselves have a pretty straightforward structure. In a nutshell, they work as **function approximator**, changing either their **weights** or their **bias** to get the desired result.
 
-<img src="https://github.com/darroyolpz/AI-notes/blob/master/Images/NN.png?raw=true" alt="NN" style="display:block;height:300px;margin:auto">
+<p align="center">
+	<img height="300" src="https://github.com/darroyolpz/AI-notes/blob/master/Images/NN.png?raw=true">
+</p>
 
 Given a huge set of data (aka *dataset*), neural networks are able to find the general patterns on the data, so that new predictions can be made. All this process is carried out using "simple" linear algebra operations, like matrix multiplication.
 
